@@ -20,3 +20,61 @@ html {
 *, *::before, *::after {
     box-sizing: inherit;
 }
+
+body {
+	background-color: #E7E5D9;
+}
+
+.masthead {
+	margin: 0;
+	padding: 0;
+	height: 3.5em;
+	overflow: hidden;
+	background: transparent url("../images/masthead-bg.png") repeat left center;
+	text-align: center;
+}
+
+.title {
+	display: inline-block;
+	margin: 0;
+	width: 8em;
+	height: 1.75em;
+	overflow: hidden;
+	background-color: #E7E5D9;
+	margin: 0 auto;
+	background-image: url("../images/sheriff-badge.svg"), url("../images/sheriff-badge.svg");
+	background-position: top left 0.5em, top right 0.5em;
+	background-repeat: no-repeat;
+	background-size: 40px 40px, 40px 40px;
+	text-shadow: 1px 1px rgba(0,0,0,0.5);
+}
+
+.content {
+	text-align: center;
+	background-color: #87714F;
+	background-image: url("../images/sheriff-hat.svg"), url("../images/shackles.svg");
+	background-position: top 1em center, bottom 1em center;
+	background-repeat: no-repeat;
+	background-size: 85px 85px, 50px 50px;
+	padding: 8em 2em 6em;
+	margin: 1.5em 0 0 0;
+}
+
+.heading {
+}
+
+.white-text {
+	color: #FFF;
+}
+
+.crimes{
+	text-align: left;
+}
+
+.portrait {
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	border-image:  url("../images/panel-border.png") 22 22 22 22 stretch stretch;
+	border-width: 22px 22px 22px 22px;
+}
